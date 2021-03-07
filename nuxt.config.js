@@ -72,7 +72,7 @@ export default {
   /*
    ** Nuxt.js dev-modules
    */
-  buildModules: ['@nuxtjs/color-mode', '@nuxtjs/tailwindcss', '@nuxtjs/svg', '@nuxtjs/pwa'],
+  buildModules: ['@nuxtjs/color-mode', '@nuxtjs/tailwindcss', '@nuxtjs/svg', '@nuxtjs/pwa', '@nuxtjs/gtm', '@nuxtjs/google-analytics'],
   /*
    ** Nuxt.js modules
    */
@@ -99,7 +99,7 @@ export default {
     /*
      ** You can extend webpack config here
      */
-    extend(config, ctx) {}
+    extend(config, ctx) { }
   },
   /*
    ** Custom additions configuration
@@ -141,5 +141,11 @@ export default {
       ogHost: process.env.URL,
       ogImage: '/preview.jpg'
     }
+  },
+  gtm: {
+    id: 'GTM-KPJ6CS8'
+  },
+  googleAnalytics: {
+    id: 'G-W6LE9JTJ62'
   }
 }

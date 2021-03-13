@@ -106,7 +106,8 @@ export default {
    */
   // ? The content property: https://content.nuxtjs.org/configuration
   content: {
-    dir: 'content'
+    dir: 'content',
+    fullTextSearchFields: ['title', 'description']
   },
   tailwindcss: {
     cssPath: '~/assets/css/main.pcss',

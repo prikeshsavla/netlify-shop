@@ -8,6 +8,9 @@
         <nuxt-link class="btn block" to="/blog">Shop</nuxt-link>
       </li>
       <li class="flex-1 ml-2">
+        <nuxt-link class="btn block" to="/products">Products</nuxt-link>
+      </li>
+      <li class="flex-1 ml-2">
         <nuxt-link class="btn block" to="/projects">Projects</nuxt-link>
       </li>
       <li class="flex-1 ml-2">

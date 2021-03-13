@@ -1,6 +1,6 @@
 ---
 category: animals
-title: Placeholder Kittens
+title: Placeholder Kittens 2
 description: Used when it is necessary to take up space, to let viewers
   understand that they should provide their own content
 cover: https://placekitten.com/400/200
